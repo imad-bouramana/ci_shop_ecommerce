@@ -1,0 +1,278 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.cart_table{
+	background-color: #fff;
+}
+.cat_thumb{
+	min-height: 400px
+}
+.cat_thumb2{
+	min-height: 380px
+}
+.cat_thumb .price{
+	color: red;
+	font-weight: bold;
+}
+.cat_thumb .waz{
+	color: red;
+	font-weight: bold;
+}
+
+.cat_thumb .price2{
+	text-decoration: line-through;
+}
+.cat_thumb h5{
+	margin-bottom: 5px
+}
+.pagination{
+	margin: 24px 0;
+}
+.thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    width: 100%;
+}
+.img_angular img{
+	margin-bottom: 5px
+}
+.img_angular2 img{
+	width: 100%
+}
+.paginationn{
+	margin: 20px 0;
+}
+
+#carousel-example-generic{
+	height: 400px
+}
+.carousel {
+  height: 400px;
+  margin-bottom: 80px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+.panel img {
+    height: 230px;
+        margin: auto;
+}
+.carousel-rec{
+	width: 250px;
+	height: 300px
+}
+#carousel-rec2{
+	height: 300px
+}
+
+.slide img {
+    min-height: 400px;
+}
+#carousel-rec2 img{
+	height: 300px
+}
+.shape{	
+	border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.offer{
+	background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+.offer-radius{
+	border-radius:7px;
+}
+.offer-danger {	border-color: #d9534f; }
+.offer-danger .shape{
+	border-color: transparent #d9534f transparent transparent;
+	border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-success {	border-color: #5cb85c; }
+.offer-success .shape{
+	border-color: transparent #5cb85c transparent transparent;
+	border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-default {	border-color: #999999; }
+.offer-default .shape{
+	border-color: transparent #999999 transparent transparent;
+	border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-primary {	border-color: #428bca; }
+.offer-primary .shape{
+	border-color: transparent #428bca transparent transparent;
+	border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-info {	border-color: #5bc0de; }
+.offer-info .shape{
+	border-color: transparent #5bc0de transparent transparent;
+	border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-warning {	border-color: #f0ad4e; }
+.offer-warning .shape{
+	border-color: transparent #f0ad4e transparent transparent;
+	border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}	
+.offer-content{
+	padding:0 20px 10px;
+}
+.panel-danger {
+  border-color: #D9534F;
+}
+.panel-danger > .panel-heading {
+  color: #fff;
+  background-color: #D9534F;
+  border-color: #D9534F;
+}
+.panel-success {
+  border-color: #5CB85C;
+}
+.panel-success > .panel-heading {
+  color: #fff;
+  background-color: #5CB85C;
+  border-color:#5CB85C;
+}
+.panel-warning {
+  border-color: #F0AD4E;
+}
+.panel-warning > .panel-heading {
+  color: #fff;
+  background-color: #F0AD4E;
+  border-color: #F0AD4E;
+}
+.nav-tabs{
+	margin-top: 25px
+}
+.enquires{
+	font-weight: bold
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.name{
+	display: none;
+}
+
+.our_offers{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid #444;
+	width: 200px;
+	margin:0 auto  24px
+}
+
+i {
+    font-size : 12px;
+    padding-right: 10px;
+    color: #18c9d2;
+}
+
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #022325;
+    color: #7d7975;
+    padding: 95px 0 50px;
+    font-size:16px;
+}
+.footer p {
+    line-height:26px;
+    color : #fff;
+}
+.footer h5 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #18c9d2  ;
+    position: relative;
+    padding-bottom: 16px;
+}
+.footer h5:after {
+    content: '';
+    display: block;
+    margin: 5px 0 0;
+    width: 40%;
+    height: 1px;
+    background-color: # ;
+}
+
+.footer ul {
+    list-style: none;
+    line-height:35px;
+    margin: 0px;
+    color:#fff;
+    
+}
+.footer a {
+    color:#fff ;
+
+}
+.footer a:hover {
+    color: #18c9d2 ;
+}
+
+
+
+/*footer bottom */
+.footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-top: 1px solid #2f2f33 ;
+    background: #022325 ;
+    
+}
+.copyright-text p {
+    color: #18c9d2;
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size:15px;
+}
+
+.copyright-text a {
+    color: #fff;
+    margin: 0px 10px 0px 10px;
+    
+}
+.copyright-text a:hover {
+    color: #18c9d2 ;
+    
+    
+}
+
+
+
+ 
